@@ -1,0 +1,108 @@
+h1{
+    color :rgb(111, 1, 255)
+}
+
+
+
+.header{
+    background-color: rgb(195, 245, 13);
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid{
+    background-color: chartreuse;
+}
+
+
+
+
+
+
+.special{
+    color :darkgreen;
+    background-color: #cabcab;
+    text-align: start;
+}
+.special:hover p{
+    opacity: 0.33;
+}
+
+
+
+
+.veryspecial{
+    color:rgb(226, 69, 7);
+     background-color: goldenrod;
+    text-align: center;
+}
+.veryspecial:hover p{
+    opacity:0.33
+}
+
+
+
+
+
+
+
+a:link{
+    color: darkgreen;
+}
+
+a:visited{
+    color: darkgreen;
+}
+
+
+.extra{
+    color: deeppink;
+    background-color: #feddab;
+    text-align: end;
+}
+
+.extra:hover p{
+    opacity:0.33
+}
+
+
+
+
+.hyper{
+    color: fuchsia;
+    background-color: #abcdef;
+    text-align:initial;
+}
+
+.hyper:hover p{
+    opacity:0.33
+}
+
+
+.special * p{
+    border: solid;
+border-color: darkkhaki;
+}  
+
+.veryspecial * p{
+    border: solid;
+border-color:darkblue;
+}  
+
+
+.extra * p{
+    border: solid;
+border-color:chartreuse;
+}  
+
+.hyper * p{
+    border: solid;
+border-color:crimson;
+}  
+
+
+
+
+
+
+
